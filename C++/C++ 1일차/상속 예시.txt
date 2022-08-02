@@ -1,0 +1,17 @@
+public 상속
+부모		자식
+public    		public
+protected 	protected
+private 		-----(private)
+
+protected 상속 
+부모		자식
+public    		protected
+protected 	protected
+private 		-----(private)
+
+private 상속
+부모		자식 
+public 		private
+protected	private
+private		-----(private)
