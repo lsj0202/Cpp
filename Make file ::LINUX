@@ -1,0 +1,8 @@
+PROG=p1
+SRCS=p1.c myheader.c
+
+${PROG}: ${SRCS}
+        gcc -o ${PROG} ${SRCS}
+clean:
+        rm ${PROG}
+        
